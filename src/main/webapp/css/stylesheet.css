@@ -1,0 +1,105 @@
+/* Stylings for the site in order */
+html{
+	font-family: Rye;
+	color: #ffffff;
+}
+body {
+  overflow-x: hidden;
+}
+
+.title{
+	position:relative;
+}
+
+.themeBlue {
+	color: #6fb6fc;
+}
+
+.white {
+	color:white;
+}
+
+/* Title of the site */
+.jumbotron { 
+    background-color: #3399ff; /* Dark Blue */
+    postiton:relative;
+    z-index:-1;
+    color: #ffffff;
+    padding: 140px 60px 100px;
+    margin: 0px;
+    margin-top:-5px;
+    font-family: Rye;
+}
+
+.parallax {
+	/* The image used */
+    background-image: url("../images/personal/IdahoBackground.jpg");
+
+    /* Set a specific height */
+/*     height: 500px;  */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.parallax2 {
+	/* The image used */
+    background-image: url("../images/personal/MountainSkyGrassLake.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.parallax3 {
+    background-image: url("../images/personal/LatechBackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.bg-blue {
+	background-color: #3399ff;
+}
+.bg-grey {
+	background-color: #f6f6f6;
+}
+.bg-black {
+	background-color: #101010;
+	color: #ffffff;
+	margin: 0px;
+}
+/* Adds padding to top and bottom */
+.container-fluid {
+    padding: 60px 50px;
+}
+.navbar-toggle {
+	margin-top: 15px;
+}
+/* Images */
+.logo {
+    font-size: 200px;
+}
+.personalPhotos {
+	width: 325px;
+    height: 400px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.skillImg {
+	height: 120px;
+    width: 100px;
+}
+

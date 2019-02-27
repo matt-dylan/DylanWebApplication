@@ -1,0 +1,113 @@
+/* Animations on the Home Page */
+
+#music1 {
+    font-size:45px;
+    color: red;
+    position: absolute;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    z-index: auto;
+    animation-iteration-count: infinite;
+}
+
+#music2 {
+    font-size:45px;
+    color: red;
+    position: absolute;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    z-index: auto;
+    animation-iteration-count: infinite;
+    margin: 0px;
+}
+
+#music3 {
+    font-size:45px;
+    color: red;
+    position: absolute;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 4s;
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    z-index: auto;
+    animation-iteration-count: infinite;
+    margin: 0px;
+}
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+   0%   {color:white; left:0%; top:100px;}
+   5%   {color:white; left:5%; top:150px;}
+   10%  {color:white; left:10%; top:130px;}
+   15%  {color:white; left:15%; top:220px;}
+   20%  {color:white; left:20%; top:260px;}
+   25%  {color:#6fb6fc; left:25%; top:280px;}
+   30%  {color:#6fb6fc; left:30%; top:260px;}
+   35%  {color:#6fb6fc; left:35%; top:280px;}
+   40%  {color:#6fb6fc; left:40%; top:260px;}
+   45%  {color:#6fb6fc; left:45%; top:280px;}
+   50%  {color:#6fb6fc; left:50%; top:260px;}
+   55%  {color:#6fb6fc; left:55%; top:280px;}
+   60%  {color:white; left:60%; top:260px;}
+   65%  {color:white; left:65%; top:280px;}
+   70%  {color:white; left:70%; top:260px;}
+   75%  {color:white; left:75%; top:280px;}
+   80%  {color:white; left:80%; top:220px;}
+   85%  {color:white; left:85%; top:130px;}
+   90%  {color:white; left:90%; top:150px;}
+   95%  {color:white; left:95%; top:100px;}
+/*    100% {color:black; left:97%; top:200px;} */
+/*    105% {color:black; left:100%; top:250px;} */
+}
+
+/* Standard syntax */
+@keyframes example {
+      0%   {color:white; left:0%; top:100px;}
+   5%   {color:white; left:5%; top:150px;}
+   10%  {color:white; left:10%; top:130px;}
+   15%  {color:white; left:15%; top:220px;}
+   20%  {color:white; left:20%; top:260px;}
+   25%  {color:#6fb6fc; left:25%; top:280px;}
+   30%  {color:#6fb6fc; left:30%; top:260px;}
+   35%  {color:#6fb6fc; left:35%; top:280px;}
+   40%  {color:#6fb6fc; left:40%; top:260px;}
+   45%  {color:#6fb6fc; left:45%; top:280px;}
+   50%  {color:#6fb6fc; left:50%; top:260px;}
+   55%  {color:#6fb6fc; left:55%; top:280px;}
+   60%  {color:white; left:60%; top:260px;}
+   65%  {color:white; left:65%; top:280px;}
+   70%  {color:white; left:70%; top:260px;}
+   75%  {color:white; left:75%; top:280px;}
+   80%  {color:white; left:80%; top:220px;}
+   85%  {color:white; left:85%; top:130px;}
+   90%  {color:white; left:90%; top:150px;}
+   95%  {color:white; left:95%; top:100px;}
+/*    100% {color:black; left:97%; top:200px;} */
+/*    105% {color:black; left:100%; top:250px;} */
+}
+
+@media screen and (max-width: 768px) {
+	#notesSection {
+	display: none;
+	}
+}
